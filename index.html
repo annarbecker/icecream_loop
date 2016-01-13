@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+    <script type="text/javascript" src="js/jquery-1.12.0.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <title>Favorite Ice Cream</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Favorite Ice Cream Flavors</h1>
+      <p class="lead"> Enter your favorite ice cream flavors below!
+      </p>
+      <form class="flavors">
+        <div class="form-group">
+          <label for="first">First Favorite</label>
+          <input type="text" class="form-control" id="first" placeholder="Yum!">
+        </div>
+        <div class="form-group">
+          <label for="second">Second Favorite</label>
+          <input type="text" class="form-control" id="second" placeholder="Yummmm">
+        </div>
+        <div class="form-group">
+          <label for="third">Third Favorite</label>
+          <input type="text" class="form-control" id="third" placeholder="Yummmmmmmmmmmm">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+      <div class="answer">
+        <h1>Yum!</h1>
+        <h3>Your favorite flavors are <span class="first"></span>, <span class="second"></span>, and <span class="third"></span>. Go get it!</h3>
+      </div>
+
+    </div>
+
+  </body>
+</html>
